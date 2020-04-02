@@ -9,7 +9,7 @@
 
 This is the API used to serve as the backend to a travel forum where users can interract with eachother about travel topics, concerns, advice, etc.
 
-It is built with *Node* and *Express*, data is structured in a relational database using *PostgreSQL* and handled with *Sequelize*. *Mocha* and *Chai* are used for unit testing.
+It is built with *Node* and *Express*, data is structured in a relational database using *PostgreSQL* and handled with *Sequelize*. *Mocha* and *Chai* are used for unit testing. *Socket.io* is used to authenticate user activity in the Chat Room.
 
 
 ## Database Models
@@ -107,9 +107,22 @@ Each user account is associated with a profile. Each country can have zero or ma
 4. DELETE /comment/:commentId - AUTH
   - Called when user requests to delete a comment
 
+
+*Message Router*
+1. POST /message - AUTH
+  - User can send a private message to another user
+  - Must accept `text`, user profileId and recipient profileId
+
+2. GET /messages - AUTH
+  - User can get all messages that have been sent to them
+
+3. PUT /message/:messageId
+  - Called when user reads a message for the first time, `read` flag set to true
+
   
 
 ## Testing
 
 Unit testing is done with *Mocha* and *Chai* - 96% coverage of server code.
+
 
