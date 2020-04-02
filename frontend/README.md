@@ -52,7 +52,7 @@ Profile View
 `Thread Container`
 - Displays selected thread and comments
 
-**Profile View**
+`Profile View`
 - Shows selected profile's basic stats
 
 
