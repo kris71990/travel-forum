@@ -1,7 +1,5 @@
 # Travel Forum - Frontend
 
-<img src="src/assets/flag-banner.png">
-
 **Author:** Kris Sakarias
 
 **Version** 1.0.0
@@ -34,3 +32,49 @@ Thread Container -> Post Template -> Post Form          |
    |
 Profile View
 ```
+
+### Components
+
+**Base Components**
+
+`Landing`
+- Displays list of regional subforums
+- Select a regional subforum...
+
+`Continent Container`
+- Displays list of country subforums within regional (continent) subforum
+- Shows total threads in each country, ordered by most recently active
+
+`Country Container`
+- Displays list of threads in a country's subforum
+- Shows total comments per thread, ordered by most recently active
+
+`Thread Container`
+- Displays selected thread and comments
+
+**Profile View**
+- Shows selected profile's basic stats
+
+
+**Child Components**
+
+`Header`
+
+*Parent Components:* All, except Chat Room
+- Navigation to `Auth Form`, `Profile View`, and `Chat Room`
+
+`Country Menu`
+
+*Parent Component*: `Continent Container`
+- Dropdown list to initialize a country subforum that is not currently active
+
+`Trend Box`
+
+*Parent Components*: `Continent Container`, `Country Container`
+- Shows trending countries or threads based on recent activity 
+
+`Post Form`
+
+*Parent Components*: `Country Container`, `Thread Container`
+- Post a new thread or comment
+
