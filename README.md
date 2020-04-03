@@ -14,7 +14,7 @@ This forum is read-only for the general public. To engage with the community, a 
 
 Don't see the country you're looking for? Initialize its subforum and post its first topic! Post a topic in any of the other active country subforums, or join a discussion and comment on any active thread. 
 
-If multiple users are online, join the chat room and talk about your travels.
+If multiple users are online, join the chat room and talk about your travels. Users can also communicate directly with eachother via private message.
 
 
 ## Technical Functionality
