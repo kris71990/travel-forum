@@ -21,7 +21,7 @@ A mixture of class and functional components are used. Generally components that
 
 ```
 Landing -> Auth Form
-Header -> Chat Room
+Header - Message Button -> Chat Room -> Profile View
    |
 Continent Container -> Table Template -> Trends Box -> Country Menu
    |
@@ -31,7 +31,7 @@ Thread Container -> Post Template -> Post Form          |
    |                                     |________ Modal Container -> Post Form
    |                                                                  Delete Modal
    |
-Profile View
+Profile View -> Message View -> Modal Container -> Message Template
 ```
 
 ### Components
