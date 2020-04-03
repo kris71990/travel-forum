@@ -92,6 +92,9 @@ Profile View -> Message View -> Modal Container -> Message Template
 *Parent Component*: `Header`
 - Shows unread message indicator when user has unread private messages
 
+`Custom Button`
+*Parent Components*: Many 
+
 `Modal Container`
 
 *Parent Components*: Many
