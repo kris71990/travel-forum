@@ -64,6 +64,16 @@ Profile View -> Message View -> Modal Container -> Message Template
 *Parent Components:* All, except Chat Room
 - Navigation to `Auth Form`, `Profile View`, and `Chat Room`
 
+`Footer`
+
+*Parent Components:* All forum containers
+- Displays list of forum moderators
+
+`Auth Form`
+
+*Parent Component:* `Landing`
+- Allows user to signup or login 
+
 `Country Menu`
 
 *Parent Component*: `Continent Container`
@@ -106,5 +116,14 @@ Profile View -> Message View -> Modal Container -> Message Template
 *Common Templates*: `Message Template`, `Table Template`, `Post Template`
 
 These templates are utilized whenever viewing forum content (`Table Template`, `Post Template`), or private messages (`Message Template`)
+
+**Admin Components**
+
+`ModPanel`
+
+*Parent Component*: `Thread Container`, `Profile View`
+
+- Allows administrator to grant moderator powers to users.
+- Moderators can control content, such as locking or stickying threads
 
 
