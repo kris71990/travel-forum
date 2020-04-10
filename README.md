@@ -16,6 +16,8 @@ Don't see the country you're looking for? Initialize its subforum and post its f
 
 If multiple users are online, join the chat room and talk about your travels. Users can also communicate directly with eachother via private message.
 
+Forum content is managed by the administrator, who can delegate moderator powers to specific users. Moderators can sticky important threads, delete spam comments, or lock threads that have become unruly. 
+
 
 ## Technical Functionality
 
