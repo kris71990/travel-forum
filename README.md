@@ -19,6 +19,10 @@ If multiple users are online, join the chat room and talk about your travels. Us
 Forum content is managed by the administrator, who can delegate moderator powers to specific users. Moderators can sticky important threads, delete spam comments, or lock threads that have become unruly. 
 
 
+## Project Demo
+Project code has not been pushed to github. Check out DEMO.md for a demo.
+
+
 ## Technical Functionality
 
 For further technical information on the application, check out the frontend and server READMEs.
