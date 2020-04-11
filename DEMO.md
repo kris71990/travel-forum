@@ -4,7 +4,7 @@
 
 Land here and browse regional subforums.
 
-<img src="demo-assets/landing.png" width="700px">
+<img src="demo-assets/landing.png">
 
 **Country Subforum**
 
