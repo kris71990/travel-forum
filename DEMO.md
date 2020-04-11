@@ -10,7 +10,7 @@ Land here and browse regional subforums.
 
 Enter a country subforum and view a list of threads.
 
-<img src="demo-assets/country-container.png" width="700px">
+<img src="demo-assets/country-container.png">
 
 **Thread View**
 
